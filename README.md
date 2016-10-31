@@ -2,13 +2,17 @@
 
 ### Usage
 
-1. Include the file pubsub.js.
-2. Create a subscribtion using,
+- Include the file pubsub.js.
+- Create a subscribtion using,
 
-```pubsub.subscribe( 'TEST_TOPIC', function(topic, data){
+```
+pubsub.subscribe( 'TEST_TOPIC', function(topic, data){
     console.log( topic, data );
-});```
+});
+```
 
-3. Publish using,
+- Publish using,
 
-```pubsub.publish('hi there!', 'TEST_TOPIC'); ```
+```
+pubsub.publish('hi there!', 'TEST_TOPIC');
+```
