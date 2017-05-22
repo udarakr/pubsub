@@ -6,9 +6,9 @@
 - Create a subscribtion using,
 
 ```
-pubsub.subscribe( 'TEST_TOPIC', function(topic, data){
+pubsub.subscribe( 'TEST_TOPIC', function(topic, data, id){
     console.log( topic, data );
-});
+}, id);
 ```
 
 - Publish using,
